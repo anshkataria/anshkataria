@@ -54,19 +54,19 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 ### 🧮 LeetCode Stats  
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=darkt&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=nord&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
 </p>
 
 ### 🤝 Connect  
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anshkataria" target="_blank">
+  <a href="https://www.linkedin.com/in/anshkataria7" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.instagram.com/anshkataria" target="_blank">
+  <a href="https://www.instagram.com/anshkataria__" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="mailto:youremail@example.com">
+  <a href="mailto:ansh.akataria@gmail.com">
     <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://anshkataria.vercel.app" target="_blank">
