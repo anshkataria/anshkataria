@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/yourusername/main/banner.png" width="100%" alt="banner">
+</p>
+
 <h1 align="center">👋 Hey, I'm Ansh Kataria</h1>
 <h3 align="center">Full Stack MERN Developer | Systems Programmer | Problem Solver</h3>
 
