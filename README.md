@@ -1,4 +1,12 @@
 ## Hi there 👋
+**Languages:**  
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+**Tools & Frameworks:**  
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![LibGDX](https://img.shields.io/badge/LibGDX-%23CC0000.svg?style=for-the-badge&logo=java&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
 
 <!--
 **anshkataria/anshkataria** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
