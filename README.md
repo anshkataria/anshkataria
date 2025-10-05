@@ -1,4 +1,100 @@
 <!-- Animated Typing Header -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=00C4CC&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Ansh+Kataria;Full+Stack+Developer+%7C+Systems+Programmer;I+love+problem+solving+and+building+robust+software)](https://git.io/typing-svg)
+
+---
+
+### 👨‍💻 About Me  
+I’m an **Engineering Student** deeply passionate about **problem-solving**, **systems programming**, and **building full-stack applications** that scale with simplicity and precision.  
+
+I enjoy working close to the system — **process management, command-line tools, pipes, and low-level C programming** — while also crafting modern web interfaces using **React and Node.js**.  
+
+Currently expanding into **iOS development** and exploring the intersection of software design and performance engineering.  
+
+---
+
+### 🧠 Tech Stack  
+
+#### 💬 Languages  
+![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)
+
+#### ⚙️ Frameworks & Libraries  
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![LibGDX](https://img.shields.io/badge/LibGDX-%23E34F26.svg?style=for-the-badge&logo=java&logoColor=white)
+
+#### 🧰 Tools & Environments  
+![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
+![Neovim](https://img.shields.io/badge/Neovim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-%23147EFB.svg?style=for-the-badge&logo=xcode&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+### 🔭 Current Focus  
+- 🚀 Building robust **MERN-stack applications**  
+- 🧩 Advanced **C programming** — processes, command-line arguments, and inter-process communication  
+- 💡 Developing **iOS apps** using **Swift** and **UIKit/SwiftUI**  
+- 🧠 Strengthening **data structures, algorithms, and problem-solving** foundations  
+
+---
+
+### 📊 GitHub Analytics  
+
+<p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🖥️ Activity Overview  
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+---
+
+### 🧭 Engineering Beliefs  
+
+> - **Precision builds trust.** Every line of code should have a reason to exist.  
+> - **Simplicity scales.** Elegant design is clear design.  
+> - **Discipline defines excellence.** Tools evolve, principles remain.  
+
+---
+
+### 🤝 Connect  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/anshkataria" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:youremail@example.com">
+    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>“Engineering is the art of transforming clarity into creation — one line at a time.”</i>
+</p>
+
+
+
+
+<!-- Animated Typing Header -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=00C4CC&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Ansh+Kataria;Software+Engineer+in+the+Making;Building+Scalable+and+Reliable+Systems;Writing+Code+with+Clarity+and+Precision)](https://git.io/typing-svg)
 
 ---
