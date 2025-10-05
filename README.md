@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/anshkataria/anshkataria/main/banner.png" width="100%" alt="banner">
-</p>
-
 <h1 align="center">👋 Hey, I'm Ansh Kataria</h1>
 <h3 align="center">Full Stack MERN Developer | Systems Programmer | Problem Solver</h3>
 
@@ -58,7 +54,7 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 ### 🧮 LeetCode Stats  
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=midnight&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=tokyonight&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
 </p>
 
 > 💡 Alternate LeetCode styles you can try:
