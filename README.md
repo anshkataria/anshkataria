@@ -4,13 +4,13 @@
 ---
 
 ### 👨‍💻 About Me  
-I’m an **Engineering Student** deeply passionate about **building scalable systems** and **writing clean, maintainable code**.  
+I’m an **Engineering Student** passionate about **building scalable systems** and **writing clean, maintainable code**.  
 
 I work across the stack — from **low-level systems programming in C** (processes, pipes, and command-line tools)  
 to developing **full-stack web applications** using **React, Node.js, and MongoDB**.  
 
-I’m also expanding into **iOS development**, learning to blend performance with design using **Swift** and **SwiftUI**.  
-I value **clarity**, **discipline**, and **engineering craftsmanship** in every line of code.
+I’m also exploring **iOS development** with **Swift** and **SwiftUI**, combining design and performance with precision.  
+I believe in simplicity, depth, and craftsmanship in every project I create.
 
 ---
 
@@ -45,9 +45,9 @@ I value **clarity**, **discipline**, and **engineering craftsmanship** in every 
 
 ### 🔭 Current Focus  
 - ⚙️ Building robust **MERN-stack applications**  
-- 💡 Deepening knowledge in **systems programming** — processes, command-line tools, and inter-process communication  
-- 🍎 Developing **iOS applications** with **Swift** and **SwiftUI**  
-- 🧠 Strengthening **data structures, algorithms, and problem-solving**  
+- 💡 Deepening expertise in **systems programming** — processes, pipes, command-line tools  
+- 🍎 Developing **iOS apps** using **Swift & SwiftUI**  
+- 🧠 Strengthening **problem-solving and DSA**  
 
 ---
 
@@ -57,13 +57,13 @@ I value **clarity**, **discipline**, and **engineering craftsmanship** in every 
   <img src="https://leetcard.jacoblin.cool/anshkataria?theme=dark&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
 </p>
 
----
+> 💡 Alternate LeetCode styles you can try:
+> - `theme=light` — clean white  
+> - `theme=unicorn` — vibrant aesthetic  
+> - `theme=tokyonight` — dark-blue tone  
+> - `theme=midnight` — modern professional  
 
-### 🧭 Engineering Beliefs  
-
-> - **Precision builds trust.** Every function should serve a purpose.  
-> - **Simplicity scales.** Elegant systems are easy to reason about.  
-> - **Discipline defines excellence.** Tools change, but principles endure.  
+Just replace the `theme=dark` in the image URL with your choice!
 
 ---
 
@@ -73,13 +73,13 @@ I value **clarity**, **discipline**, and **engineering craftsmanship** in every 
   <a href="https://www.linkedin.com/in/anshkataria" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  <a href="https://www.instagram.com/anshkataria" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
   <a href="mailto:youremail@example.com">
     <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-</p>
-
----
-
-<p align="center">
-  <i>“Engineering is the quiet pursuit of perfection — built line by line, refined through discipline.”</i>
+  <a href="https://anshkataria.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
 </p>
