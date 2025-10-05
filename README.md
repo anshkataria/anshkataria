@@ -54,18 +54,8 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 ### 🧮 LeetCode Stats  
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=tokyonight&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=darkt&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
 </p>
-
-> 💡 Alternate LeetCode styles you can try:
-> - `theme=light` — clean white  
-> - `theme=unicorn` — vibrant aesthetic  
-> - `theme=tokyonight` — dark-blue tone  
-> - `theme=midnight` — modern professional  
-
-Just replace the `theme=dark` in the image URL with your choice!
-
----
 
 ### 🤝 Connect  
 
