@@ -1,8 +1,8 @@
-<h1 align="center">👋 Hey, I'm Ansh Kataria</h1>
-<h3 align="center">Full Stack MERN Developer | Systems Programmer | Problem Solver</h3>
+<!-- <h1 align="center">👋 Hey, I'm Ansh Kataria</h1> -->
+<h3 align="center">Linux | Systems Programming | Full Stack MERN | Problem Solver | Software Engineer</h3>
 
 ---
-
+<!--
 ### 👨‍💻 About Me  
 I’m an **Engineering Student** passionate about **building scalable systems** and **writing clean, maintainable code**.  
 
@@ -13,9 +13,8 @@ I’m also exploring **iOS development** with **Swift** and **SwiftUI**, combini
 I believe in simplicity, depth, and craftsmanship in every project I create.
 
 ---
-
-### 🧠 Tech Stack  
-
+-->
+##  Tech Stack  
 #### 💬 Languages  
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -35,14 +34,15 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 
 #### 🧰 Tools & Environments  
 ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-![Neovim](https://img.shields.io/badge/Neovim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-%23147EFB.svg?style=for-the-badge&logo=xcode&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
-
+<!--
 ### 🔭 Current Focus  
 - ⚙️ Building robust **MERN-stack applications**  
 - 💡 Deepening expertise in **systems programming** — processes, pipes, command-line tools  
@@ -50,14 +50,14 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 - 🧠 Strengthening **problem-solving and DSA**  
 
 ---
-
+-->
 ### 🧮 LeetCode Stats  
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/anshkataria?theme=dark&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
 </p>
 
-### 🤝 Connect  
+##  Connect  
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anshkataria7" target="_blank">
