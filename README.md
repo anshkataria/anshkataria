@@ -13,7 +13,17 @@ I’m also exploring **iOS development** with **Swift** and **SwiftUI**, combini
 I believe in simplicity, depth, and craftsmanship in every project I create.
 
 ---
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&theme=dark" alt="GitHub Streak" />
+</p>
 -->
+
+
 ##  Tech Stack  
 #### 💬 Languages  
 ![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -22,6 +32,14 @@ I believe in simplicity, depth, and craftsmanship in every project I create.
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)
+### 🚀 Projects
+- **[Counter App](https://github.com/anshkataria/CounterApp)** – iOS app built using swift and UIKit.
+- **[LibGDX Game Engine Project](https://github.com/anshkataria/)** – 2D game engine project in Java using LibGDX.
+
+#### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%23181717.svg?style=for-the-badge&logo=github-actions&logoColor=white)
 
 #### ⚙️ Frameworks & Libraries  
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
