@@ -1,93 +1,56 @@
-<!-- <h1 align="center">👋 Hey, I'm Ansh Kataria</h1> -->
-<h3 align="center">Linux | Systems Programming | Full Stack MERN | Problem Solver | Software Engineer</h3>
+<div align="center">
+  <h1>Ansh Kataria</h1>
+  <p>
+    <strong>Software Engineering Student @ University of Queensland</strong><br>
+    Quant Developer | Backend Developer | Systems Enthusiast
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/University%20of%20Queensland-UQ-51247a?style=flat&logo=universityofqueensland&logoColor=white" />
+    <a href="resumelink" target="_blank">
+      <img src="https://img.shields.io/badge/Resume-View%20PDF-black?style=flat&logo=read-the-docs&logoColor=white" />
+    </a>
+  </p>
+</div>
 
 ---
-<!--
-### 👨‍💻 About Me  
-I’m an **Engineering Student** passionate about **building scalable systems** and **writing clean, maintainable code**.  
 
-I work across the stack — from **low-level systems programming in C** (processes, pipes, and command-line tools)  
-to developing **full-stack web applications** using **React, Node.js, and MongoDB**.  
+### About Me
+I’m an Engineering student at UQ with a massive interest in the intersection of finance and code. That’s why I’ve been focusing on the **Quant and Trading** space—currently, I'm spending a lot of time building out projects like a **Limit Order Book** in C++.
 
-I’m also exploring **iOS development** with **Swift** and **SwiftUI**, combining design and performance with precision.  
-I believe in simplicity, depth, and craftsmanship in every project I create.
+I’m also really passionate about **Backend Development**. I love working with the Spring ecosystem (Spring Boot, Microservices, Data JPA, Hibernate) and using the Stream API to keep things efficient. I’m a big believer in learning, so I spend a lot of my time reading books to refine my skills in Spring architecture, finance, and C++ for quant.
 
----
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark)
+I’m a huge fan of the **command line**, Linux, and diving into Unix system programming concepts. My time at university has also helped me get comfortable working in **Agile teams**, managing sprints, and using Git/GitHub to keep everything organized. 
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&theme=dark" alt="GitHub Streak" />
-</p>
--->
-
-
-##  Tech Stack  
-#### 💬 Languages  
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)
-### 🚀 Projects
-- **[Counter App](https://github.com/anshkataria/CounterApp)** – iOS app built using swift and UIKit.
-- **[LibGDX Game Engine Project](https://github.com/anshkataria/)** – 2D game engine project in Java using LibGDX.
-
-#### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%23181717.svg?style=for-the-badge&logo=github-actions&logoColor=white)
-
-#### ⚙️ Frameworks & Libraries  
-![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![LibGDX](https://img.shields.io/badge/LibGDX-%23E34F26.svg?style=for-the-badge&logo=java&logoColor=white)
-
-#### 🧰 Tools & Environments  
-![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-%2357A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-%23147EFB.svg?style=for-the-badge&logo=xcode&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+Let's go.
 
 ---
-<!--
-### 🔭 Current Focus  
-- ⚙️ Building robust **MERN-stack applications**  
-- 💡 Deepening expertise in **systems programming** — processes, pipes, command-line tools  
-- 🍎 Developing **iOS apps** using **Swift & SwiftUI**  
-- 🧠 Strengthening **problem-solving and DSA**  
+
+### Tech Stack
+
+**Languages**
+> ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+**Frameworks & Build Tools**
+> ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white) ![Makefiles](https://img.shields.io/badge/Makefiles-000000?style=flat&logo=gnu-make&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Vim](https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white)
+
+**Databases & Environment**
+> ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
--->
-### 🧮 LeetCode Stats  
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/anshkataria?theme=dark&font=Fira%20Code&ext=contest" alt="LeetCode Stats" />
-</p>
-
-##  Connect  
-
-<p align="center">
+### Connect
+<div align="center">
   <a href="https://www.linkedin.com/in/anshkataria7" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://www.instagram.com/anshkataria__" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:ansh.akataria@gmail.com">
-    <img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://anshkataria.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
+</div>
+
+---
+
+<p align="center">
+  <strong>Godspeed.</strong>
 </p>
