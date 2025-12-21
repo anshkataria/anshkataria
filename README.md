@@ -7,7 +7,7 @@
 
   <p>
     <img src="https://img.shields.io/badge/University%20of%20Queensland-UQ-51247a?style=flat&logo=universityofqueensland&logoColor=white" />
-    <a href="resumelink" target="_blank">
+    <a href="https://drive.google.com/file/d/1ZiMQrjdbSlZernQ4wpAYaCF-eQhcsZiO/view?usp=sharing" target="_blank">
       <img src="https://img.shields.io/badge/Resume-View%20PDF-black?style=flat&logo=read-the-docs&logoColor=white" />
     </a>
   </p>
