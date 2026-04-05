@@ -8,7 +8,7 @@ Quant Developer · Backend Developer · Systems Enthusiast
 
 <img src="https://img.shields.io/badge/University%20of%20Queensland-UQ-51247a?style=flat&logoColor=white" />
 &nbsp;
-<a href="https://drive.google.com/file/d/1ZiMQrjdbSlZernQ4wpAYaCF-eQhcsZiO/view?usp=sharing" target="_blank">
+<a href="[https://drive.google.com/file/d/1ZiMQrjdbSlZernQ4wpAYaCF-eQhcsZiO/view?usp=sharing](https://drive.google.com/file/d/1ikd5QZwcV8bvbTIhfwtsk6eWihnxSPvU/view?usp=sharing)" target="_blank">
   <img src="https://img.shields.io/badge/Resume-View%20PDF-black?style=flat&logo=read-the-docs&logoColor=white" />
 </a>
 &nbsp;
