@@ -1,6 +1,3 @@
-<br>
-<br>
-
 <div align="center">
 
 <sup><sub>SOFTWARE ENGINEERING · UNIVERSITY OF QUEENSLAND</sub></sup>
@@ -10,46 +7,18 @@
 # Ansh Kataria
 
 <h3 align="center">
-<sub>Building backend that scales.</sub>
+<sub>Engineer. Builder.</sub>
 </h3>
 
 <br>
 
-<sub>Quant Developer&nbsp;&nbsp;·&nbsp;&nbsp;Backend Developer&nbsp;&nbsp;·&nbsp;&nbsp;Systems Enthusiast</sub>
-
-<br>
-<br>
-
 [Résumé](https://drive.google.com/file/d/1ikd5QZwcV8bvbTIhfwtsk6eWihnxSPvU/view?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;[LinkedIn](https://www.linkedin.com/in/anshkataria7)&nbsp;&nbsp;&nbsp;&nbsp;[Email](mailto:ansh.akataria@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[GitHub](https://github.com/anshkataria)
 
-</div>
-
-<br>
 <br>
 
-<div align="center">
 <img src="https://img.shields.io/badge/●-Open%20to%20internships%20%26%20grad%20roles%20·%202026-eaf2fe?style=flat-square&labelColor=eaf2fe&color=0071e3" height="26"/>
+
 </div>
-
-<br>
-<br>
-
----
-
-<br>
-
-<div align="center">
-<h2><sub>About</sub></h2>
-</div>
-
-<br>
-
-<p align="center" width="100%">
-<i>Penultimate-year Software Engineering student at UQ, working across the full stack —<br>
-backend APIs, distributed systems, and frontend interfaces. Currently deep in the<br>
-quant and trading space, building tools like a Monte Carlo simulation engine and<br>
-financial risk models in Python.</i>
-</p>
 
 <br>
 
@@ -60,8 +29,6 @@ financial risk models in Python.</i>
 <div align="center">
 <h2><sub>Experience</sub></h2>
 
-<br>
-
 **Software Engineer Intern** · ChatStat
 <br>
 <sub>Brisbane, Australia · Hybrid · Mar 2026 – Present</sub>
@@ -70,12 +37,16 @@ financial risk models in Python.</i>
 
 <br>
 
+---
+
+<br>
+
 ## Tech Stack
 
 <div align="center">
 
 <sub>LANGUAGES</sub>
-<br><br>
+<br>
 ![C++](https://img.shields.io/badge/C++-0071e3?style=flat-square&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-0071e3?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-0071e3?style=flat-square&logo=python&logoColor=white)
@@ -83,10 +54,8 @@ financial risk models in Python.</i>
 ![Swift](https://img.shields.io/badge/Swift-0071e3?style=flat-square&logo=swift&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0071e3?style=flat-square&logo=kotlin&logoColor=white)
 
-<br>
-
 <sub>FRAMEWORKS & LIBRARIES</sub>
-<br><br>
+<br>
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-ff9500?style=flat-square&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-ff9500?style=flat-square&logo=springsecurity&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-ff9500?style=flat-square&logo=hibernate&logoColor=white)
@@ -95,10 +64,8 @@ financial risk models in Python.</i>
 ![NumPy](https://img.shields.io/badge/NumPy-ff9500?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-ff9500?style=flat-square&logo=pandas&logoColor=white)
 
-<br>
-
 <sub>CLOUD & DEVOPS</sub>
-<br><br>
+<br>
 ![AWS](https://img.shields.io/badge/AWS-34c759?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-34c759?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-34c759?style=flat-square&logo=kubernetes&logoColor=white)
@@ -106,10 +73,8 @@ financial risk models in Python.</i>
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-34c759?style=flat-square&logo=github-actions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-34c759?style=flat-square&logo=linux&logoColor=white)
 
-<br>
-
 <sub>DATABASES</sub>
-<br><br>
+<br>
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-af52de?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-af52de?style=flat-square&logo=mysql&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-af52de?style=flat-square&logo=databricks&logoColor=white)
@@ -176,24 +141,17 @@ financial risk models in Python.</i>
 <br>
 
 <div align="center">
-<h2><sub>GitHub Activity</sub></h2>
+<h2><sub>Activity</sub></h2>
 
-<br>
-
-<sub>52-week contribution history</sub>
+<sub>GitHub · 52-week contribution history</sub>
 
 <br><br>
 
 <img src="https://ghchart.rshah.org/0071e3/anshkataria" width="100%" />
 
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&hide_border=true&theme=transparent&title_color=0071e3&icon_color=0071e3&text_color=1d1d1f&hide_rank=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&hide_border=true&background=ffffff&ring=0071e3&fire=ff9500&currStreakLabel=0071e3&sideLabels=1d1d1f&currStreakNum=1d1d1f&sideNums=1d1d1f&dates=86868b" height="165" />
+<br>
 
 </div>
-
-<br>
 
 <br>
 
@@ -204,8 +162,6 @@ financial risk models in Python.</i>
 <div align="center">
 
 <sub>ansh.akataria@gmail.com&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>linkedin.com/in/anshkataria7</sub>](https://www.linkedin.com/in/anshkataria7)<sub>&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>github.com/anshkataria</sub>](https://github.com/anshkataria)
-
-<br><br>
 
 <sub>© 2026 Ansh Kataria</sub>
 
