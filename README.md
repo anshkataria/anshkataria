@@ -1,53 +1,72 @@
+<br>
+<br>
+
 <div align="center">
+
+<sup><sub>SOFTWARE ENGINEERING · UNIVERSITY OF QUEENSLAND</sub></sup>
+
+<br>
 
 # Ansh Kataria
 
-### Software Engineering Student @ University of Queensland
+<h3 align="center">
+<sub>Building backend that scales.</sub>
+</h3>
 
-**Quant Developer · Backend Developer · Systems Enthusiast**
+<br>
 
-<img src="https://img.shields.io/badge/Open%20to-Internships%20%26%20Grad%20Roles%20%E2%80%9926-22c55e?style=for-the-badge" />
+<sub>Quant Developer&nbsp;&nbsp;·&nbsp;&nbsp;Backend Developer&nbsp;&nbsp;·&nbsp;&nbsp;Systems Enthusiast</sub>
 
-<a href="https://drive.google.com/file/d/1ikd5QZwcV8bvbTIhfwtsk6eWihnxSPvU/view?usp=sharing">
-  <img src="https://img.shields.io/badge/Resume-View%20PDF-09090b?style=for-the-badge&logo=readdotcv&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/anshkataria7">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:ansh.akataria@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<br>
+<br>
+
+[Résumé](https://drive.google.com/file/d/1ikd5QZwcV8bvbTIhfwtsk6eWihnxSPvU/view?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;[LinkedIn](https://www.linkedin.com/in/anshkataria7)&nbsp;&nbsp;&nbsp;&nbsp;[Email](mailto:ansh.akataria@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[GitHub](https://github.com/anshkataria)
 
 </div>
 
 <br>
+<br>
 
-```bash
-$ whoami
-ansh kataria · swe @ uq · expected 2027
+<div align="center">
+<img src="https://img.shields.io/badge/●-Open%20to%20internships%20%26%20grad%20roles%20·%202026-f5f5f7?style=flat-square&labelColor=f5f5f7&color=1d1d1f" height="26"/>
+</div>
 
-$ role --current
-→ Software Engineer Intern @ ChatStat
-→ Brisbane, AU · Hybrid · since Mar '26
+<br>
+<br>
 
-$ skills --list
-✦ Spring Boot · Java · Python
-✦ AWS · Docker · PostgreSQL
-✦ C++ · React · Quant / ML
-```
+---
 
 <br>
 
-## About
-
-Penultimate-year Software Engineering student at UQ, working across the full stack — backend APIs, distributed systems, and frontend interfaces. Currently deep in the **quant and trading** space, building tools like a Monte Carlo simulation engine and financial risk models in Python. Strong focus on the Spring ecosystem (Spring Boot, Microservices, Data JPA, Hibernate), with a soft spot for the command line, Linux, and Unix systems programming.
+<div align="center">
+<h2><sub>About</sub></h2>
+</div>
 
 <br>
 
-## Experience
+<p align="center" width="100%">
+<i>Penultimate-year Software Engineering student at UQ, working across the full stack —<br>
+backend APIs, distributed systems, and frontend interfaces. Currently deep in the<br>
+quant and trading space, building tools like a Monte Carlo simulation engine and<br>
+financial risk models in Python.</i>
+</p>
 
-> **Software Engineer Intern** — ChatStat
-> Brisbane, Australia · Hybrid · *Mar 2026 – Present*
+<br>
+
+---
+
+<br>
+
+<div align="center">
+<h2><sub>Experience</sub></h2>
+
+<br>
+
+**Software Engineer Intern** · ChatStat
+<br>
+<sub>Brisbane, Australia · Hybrid · Mar 2026 – Present</sub>
+
+</div>
 
 <br>
 
@@ -55,39 +74,45 @@ Penultimate-year Software Engineering student at UQ, working across the full sta
 
 <div align="center">
 
-**Languages**
-<br>
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+<sub>LANGUAGES</sub>
+<br><br>
+![C++](https://img.shields.io/badge/C++-1d1d1f?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-1d1d1f?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-1d1d1f?style=flat-square&logo=javascript&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-1d1d1f?style=flat-square&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-1d1d1f?style=flat-square&logo=kotlin&logoColor=white)
 
-**Frameworks & Libraries**
 <br>
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**Cloud & DevOps**
-<br>
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+<sub>FRAMEWORKS & LIBRARIES</sub>
+<br><br>
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-1d1d1f?style=flat-square&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-1d1d1f?style=flat-square&logo=hibernate&logoColor=white)
+![React](https://img.shields.io/badge/React-1d1d1f?style=flat-square&logo=react&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-1d1d1f?style=flat-square&logo=flask&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1d1d1f?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-1d1d1f?style=flat-square&logo=pandas&logoColor=white)
 
-**Databases**
 <br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
+
+<sub>CLOUD & DEVOPS</sub>
+<br><br>
+![AWS](https://img.shields.io/badge/AWS-1d1d1f?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-1d1d1f?style=flat-square&logo=kubernetes&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-1d1d1f?style=flat-square&logo=apachekafka&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1d1d1f?style=flat-square&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-1d1d1f?style=flat-square&logo=linux&logoColor=white)
+
+<br>
+
+<sub>DATABASES</sub>
+<br><br>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1d1d1f?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-1d1d1f?style=flat-square&logo=mysql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-1d1d1f?style=flat-square&logo=databricks&logoColor=white)
 
 </div>
 
@@ -104,9 +129,9 @@ Penultimate-year Software Engineering student at UQ, working across the full sta
 
 Luxury car commerce platform with JWT-secured REST APIs, role-based access control, and a complete order lifecycle — browsing, cart, checkout, admin dashboard with revenue analytics. Containerised with Docker Compose.
 
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
+![React](https://img.shields.io/badge/-React-1d1d1f?style=flat-square&logo=react&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -116,8 +141,8 @@ Luxury car commerce platform with JWT-secured REST APIs, role-based access contr
 
 Simulation engine modelling probabilistic trading outcomes across thousands of stochastic trials, quantifying strategy risk and return distributions.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-1d1d1f?style=flat-square&logo=numpy&logoColor=white)
 
 </td>
 </tr>
@@ -129,9 +154,9 @@ Simulation engine modelling probabilistic trading outcomes across thousands of s
 
 Production-grade RESTful Flask API applying layered architecture principles, load tested at 50,000+ concurrent requests to validate horizontal scaling strategies.
 
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-1d1d1f?style=flat-square&logo=flask&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-1d1d1f?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -141,8 +166,8 @@ Production-grade RESTful Flask API applying layered architecture principles, loa
 
 Retrieval-Augmented Generation pipeline enabling semantically-grounded LLM responses over a custom document corpus.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/-ChromaDB-1d1d1f?style=flat-square&logo=databricks&logoColor=white)
 
 </td>
 </tr>
@@ -154,8 +179,8 @@ Retrieval-Augmented Generation pipeline enabling semantically-grounded LLM respo
 
 Command-line task management tool with full CRUD, status tracking, and JSON persistence via Jackson, structured under standard Maven conventions.
 
-![Java](https://img.shields.io/badge/-Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/-Java%2021-1d1d1f?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -165,8 +190,8 @@ Command-line task management tool with full CRUD, status tracking, and JSON pers
 
 Full-stack job tracking app letting users log, organise, and monitor every stage of their job search through a clean, persistent UI.
 
-![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/-React-1d1d1f?style=flat-square&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1d1d1f?style=flat-square&logo=postgresql&logoColor=white)
 
 </td>
 </tr>
@@ -174,19 +199,42 @@ Full-stack job tracking app letting users log, organise, and monitor every stage
 
 <br>
 
-## GitHub Activity
+---
+
+<br>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&hide_border=true" height="165" />
+<h2><sub>GitHub Activity</sub></h2>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshkataria&hide_border=true&area=true" width="100%" />
+<br>
+
+<sub>Past 52 weeks</sub>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshkataria&hide_border=true&area=true&custom_title=&bg_color=ffffff&color=1d1d1f&line=1d1d1f&point=1d1d1f&area_color=1d1d1f&days=365" width="100%" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&hide_border=true&theme=transparent&title_color=1d1d1f&icon_color=1d1d1f&text_color=424245&hide_rank=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&hide_border=true&background=ffffff&ring=1d1d1f&fire=1d1d1f&currStreakLabel=1d1d1f&sideLabels=424245&currStreakNum=1d1d1f&sideNums=424245&dates=86868b" height="165" />
+
 </div>
+
+<br>
+
+<br>
+
+---
 
 <br>
 
 <div align="center">
 
-📫 **ansh.akataria@gmail.com** · 🔗 [linkedin.com/in/anshkataria7](https://www.linkedin.com/in/anshkataria7) · 🐙 [github.com/anshkataria](https://github.com/anshkataria)
+<sub>ansh.akataria@gmail.com&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>linkedin.com/in/anshkataria7</sub>](https://www.linkedin.com/in/anshkataria7)<sub>&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>github.com/anshkataria</sub>](https://github.com/anshkataria)
+
+<br><br>
+
+<sub>© 2026 Ansh Kataria</sub>
 
 </div>
