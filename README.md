@@ -28,7 +28,7 @@
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/●-Open%20to%20internships%20%26%20grad%20roles%20·%202026-f5f5f7?style=flat-square&labelColor=f5f5f7&color=1d1d1f" height="26"/>
+<img src="https://img.shields.io/badge/●-Open%20to%20internships%20%26%20grad%20roles%20·%202026-eaf2fe?style=flat-square&labelColor=eaf2fe&color=0071e3" height="26"/>
 </div>
 
 <br>
@@ -76,43 +76,43 @@ financial risk models in Python.</i>
 
 <sub>LANGUAGES</sub>
 <br><br>
-![C++](https://img.shields.io/badge/C++-1d1d1f?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-1d1d1f?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-1d1d1f?style=flat-square&logo=javascript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-1d1d1f?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-1d1d1f?style=flat-square&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C++-0071e3?style=flat-square&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-0071e3?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0071e3?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-0071e3?style=flat-square&logo=javascript&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-0071e3?style=flat-square&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0071e3?style=flat-square&logo=kotlin&logoColor=white)
 
 <br>
 
 <sub>FRAMEWORKS & LIBRARIES</sub>
 <br><br>
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-1d1d1f?style=flat-square&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-1d1d1f?style=flat-square&logo=hibernate&logoColor=white)
-![React](https://img.shields.io/badge/React-1d1d1f?style=flat-square&logo=react&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-1d1d1f?style=flat-square&logo=flask&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1d1d1f?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-1d1d1f?style=flat-square&logo=pandas&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-ff9500?style=flat-square&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-ff9500?style=flat-square&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-ff9500?style=flat-square&logo=hibernate&logoColor=white)
+![React](https://img.shields.io/badge/React-ff9500?style=flat-square&logo=react&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-ff9500?style=flat-square&logo=flask&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-ff9500?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-ff9500?style=flat-square&logo=pandas&logoColor=white)
 
 <br>
 
 <sub>CLOUD & DEVOPS</sub>
 <br><br>
-![AWS](https://img.shields.io/badge/AWS-1d1d1f?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-1d1d1f?style=flat-square&logo=kubernetes&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-1d1d1f?style=flat-square&logo=apachekafka&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1d1d1f?style=flat-square&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-1d1d1f?style=flat-square&logo=linux&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-34c759?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-34c759?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-34c759?style=flat-square&logo=kubernetes&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-34c759?style=flat-square&logo=apachekafka&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-34c759?style=flat-square&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-34c759?style=flat-square&logo=linux&logoColor=white)
 
 <br>
 
 <sub>DATABASES</sub>
 <br><br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1d1d1f?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-1d1d1f?style=flat-square&logo=mysql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-1d1d1f?style=flat-square&logo=databricks&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-af52de?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-af52de?style=flat-square&logo=mysql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-af52de?style=flat-square&logo=databricks&logoColor=white)
 
 </div>
 
@@ -124,74 +124,46 @@ financial risk models in Python.</i>
 <tr>
 <td width="50%" valign="top">
 
-### 🚗 [Veloce](https://github.com/anshkataria/veloce)
-**Full-Stack E-Commerce Platform** · 2026
+### 🎟️ Ticket Tailor
+**Serverless Event Platform** · 2025
 
-Luxury car commerce platform with JWT-secured REST APIs, role-based access control, and a complete order lifecycle — browsing, cart, checkout, admin dashboard with revenue analytics. Containerised with Docker Compose.
-
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/-React-1d1d1f?style=flat-square&logo=react&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 📈 [Monte Carlo Simulation](https://github.com/anshkataria/monte-carlo-simulation)
-**Probabilistic Trading Model** · 2026
-
-Simulation engine modelling probabilistic trading outcomes across thousands of stochastic trials, quantifying strategy risk and return distributions.
-
-![Python](https://img.shields.io/badge/-Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-1d1d1f?style=flat-square&logo=numpy&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ Backend API
-**Software Architecture Course Project** · 2026 · *In Progress*
-
-Production-grade RESTful Flask API applying layered architecture principles, load tested at 50,000+ concurrent requests to validate horizontal scaling strategies.
-
-![Flask](https://img.shields.io/badge/-Flask-1d1d1f?style=flat-square&logo=flask&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-1d1d1f?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-1d1d1f?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS%20Lambda-0071e3?style=flat-square&logo=amazon-aws&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/-DynamoDB-0071e3?style=flat-square&logo=amazondynamodb&logoColor=white)
+![Cognito](https://img.shields.io/badge/-Cognito-0071e3?style=flat-square&logo=amazonaws&logoColor=white)
+![API Gateway](https://img.shields.io/badge/-API%20Gateway-0071e3?style=flat-square&logo=amazonapigateway&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔍 RAG Pipeline
-**Generative AI Course Assignment** · 2026 · *In Progress*
+### 🏎️ PitStop Intelligence
+**Real-Time F1 Race Dashboard** · 2025
 
-Retrieval-Augmented Generation pipeline enabling semantically-grounded LLM responses over a custom document corpus.
-
-![Python](https://img.shields.io/badge/-Python-1d1d1f?style=flat-square&logo=python&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/-ChromaDB-1d1d1f?style=flat-square&logo=databricks&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-ff9500?style=flat-square&logo=spring-boot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-ff9500?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-ff9500?style=flat-square&logo=redis&logoColor=white)
+![WebSocket](https://img.shields.io/badge/-WebSocket-ff9500?style=flat-square&logo=socketdotio&logoColor=white)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ✅ [Task Tracker CLI](https://github.com/anshkataria/task-tracker-cli)
-**Java / Spring Boot** · 2025
+### 🎵 Playlist Porter
+**Spotify → Apple Music Transfer Tool** · 2025
 
-Command-line task management tool with full CRUD, status tracking, and JSON persistence via Jackson, structured under standard Maven conventions.
-
-![Java](https://img.shields.io/badge/-Java%2021-1d1d1f?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-1d1d1f?style=flat-square&logo=spring-boot&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-34c759?style=flat-square&logo=python&logoColor=white)
+![Spotify API](https://img.shields.io/badge/-Spotify%20API-34c759?style=flat-square&logo=spotify&logoColor=white)
+![Apple Music API](https://img.shields.io/badge/-Apple%20Music%20API-34c759?style=flat-square&logo=applemusic&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
 
-### 📋 [ApplyLog](https://github.com/anshkataria/apply-log)
-**Job Application Tracker** · 2026 · *In Progress*
+### 🎮 The Year We Fought Back
+**2D Game — Studio 3 Capstone (Agile Team)** · 2025
 
-Full-stack job tracking app letting users log, organise, and monitor every stage of their job search through a clean, persistent UI.
-
-![React](https://img.shields.io/badge/-React-1d1d1f?style=flat-square&logo=react&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-1d1d1f?style=flat-square&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-af52de?style=flat-square&logo=openjdk&logoColor=white)
+![LibGDX](https://img.shields.io/badge/-LibGDX-af52de?style=flat-square&logo=java&logoColor=white)
+![Agile](https://img.shields.io/badge/-Agile%20%2F%20Scrum-af52de?style=flat-square&logo=jira&logoColor=white)
 
 </td>
 </tr>
@@ -208,16 +180,16 @@ Full-stack job tracking app letting users log, organise, and monitor every stage
 
 <br>
 
-<sub>Past 52 weeks</sub>
+<sub>52-week contribution history</sub>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anshkataria&hide_border=true&area=true&custom_title=&bg_color=ffffff&color=1d1d1f&line=1d1d1f&point=1d1d1f&area_color=1d1d1f&days=365" width="100%" />
+<img src="https://ghchart.rshah.org/0071e3/anshkataria" width="100%" />
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&hide_border=true&theme=transparent&title_color=1d1d1f&icon_color=1d1d1f&text_color=424245&hide_rank=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&hide_border=true&background=ffffff&ring=1d1d1f&fire=1d1d1f&currStreakLabel=1d1d1f&sideLabels=424245&currStreakNum=1d1d1f&sideNums=424245&dates=86868b" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=anshkataria&show_icons=true&hide_border=true&theme=transparent&title_color=0071e3&icon_color=0071e3&text_color=1d1d1f&hide_rank=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anshkataria&hide_border=true&background=ffffff&ring=0071e3&fire=ff9500&currStreakLabel=0071e3&sideLabels=1d1d1f&currStreakNum=1d1d1f&sideNums=1d1d1f&dates=86868b" height="165" />
 
 </div>
 
