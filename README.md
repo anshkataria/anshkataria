@@ -84,87 +84,12 @@ Built and shipped a Java/LibGDX game in a multi-team environment using shared re
 
 [Project →](PROJECT_URL)
 
----
-
-## Engineering Stack
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Backend
-
-**Core**  
-Java · Spring Boot  
-Python · FastAPI  
-PostgreSQL
-
-**Also used**  
-C++ · Redis  
-REST · WebSockets
-
-</td>
-<td width="33%" valign="top">
-
-### Cloud & Infrastructure
-
-**Core**  
-AWS Lambda  
-API Gateway  
-Docker
-
-**Also used**  
-DynamoDB · SQS  
-EventBridge · Cognito  
-GitHub Actions
-
-</td>
-<td width="33%" valign="top">
-
-### Applied AI
-
-**Core**  
-Python  
-scikit-learn  
-ML pipelines
-
-**Exploring**  
-Embeddings  
-Vector search  
-LLM APIs
-
-</td>
-</tr>
-</table>
 
 ---
 
-## Experience
-
-### Software Engineer Intern · ChatStat
-
-**Mar 2026 – Present · Brisbane, Australia**
-
-Working across production features and backend services while collaborating with the engineering team to ship real product changes.
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/0071e3/anshkataria" width="100%" alt="Ansh Kataria's GitHub contribution graph">
-
-</div>
-
----
-
-<div align="center">
 
 ### Have something worth building?
 
 [Email](mailto:YOUR_EMAIL) · [LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL)
-
-<sub>Built by Ansh Kataria · Brisbane, Australia</sub>
 
 </div>
