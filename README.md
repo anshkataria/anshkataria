@@ -1,168 +1,170 @@
 <div align="center">
 
-<sup><sub>SOFTWARE ENGINEERING · UNIVERSITY OF QUEENSLAND</sub></sup>
-
-<br>
+<sup>SOFTWARE ENGINEERING · UNIVERSITY OF QUEENSLAND</sup>
 
 # Ansh Kataria
 
-<h3 align="center">
-<sub>Engineer. Builder.</sub>
-</h3>
+### Backend systems · Cloud infrastructure · Applied AI
+
+I build production-oriented software across backend systems, distributed cloud architecture, and ML-powered products.
+
+[Portfolio](YOUR_PORTFOLIO_URL) · [Résumé](YOUR_RESUME_URL) · [LinkedIn](YOUR_LINKEDIN_URL) · [Email](mailto:YOUR_EMAIL)
 
 <br>
 
-[Résumé](https://drive.google.com/file/d/1ikd5QZwcV8bvbTIhfwtsk6eWihnxSPvU/view?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;[LinkedIn](https://www.linkedin.com/in/anshkataria7)&nbsp;&nbsp;&nbsp;&nbsp;[Email](mailto:ansh.akataria@gmail.com)&nbsp;&nbsp;&nbsp;&nbsp;[GitHub](https://github.com/anshkataria)
-
-<br>
-
-<img src="https://img.shields.io/badge/●-Open%20to%20internships%20%26%20grad%20roles%20·%202026-eaf2fe?style=flat-square&labelColor=eaf2fe&color=0071e3" height="26"/>
+**Software Engineer Intern @ ChatStat** · Brisbane, Australia  
+Open to software engineering internships and 2027 graduate roles
 
 </div>
-
-<br>
 
 ---
 
-<br>
+## Selected Work
 
-<div align="center">
-<h2><sub>Experience</sub></h2>
+### 🏎️ PitStop Intelligence
 
-**Software Engineer Intern** · ChatStat
-<br>
-<sub>Brisbane, Australia · Hybrid · Mar 2026 – Present</sub>
+**Real-time Formula 1 intelligence platform**
 
-</div>
+A production-style distributed system combining race data ingestion, backend services, real-time delivery, and ML predictions.
 
-<br>
+`Spring Boot` `FastAPI` `PostgreSQL` `Redis` `WebSockets` `Docker`
+
+- Built a modular backend around domain-driven service boundaries
+- Designed a Python ML service for race-position predictions
+- Added real-time race updates through WebSockets
+- Containerised services and structured the system for observability and deployment
+
+[Repository →](PROJECT_URL)
 
 ---
 
-<br>
+### 🎟️ Ticket Tailor
 
-## Tech Stack
+**Serverless campus event platform**
 
-<div align="center">
+Designed around distributed AWS services to handle event discovery, registration, scheduling, and notifications.
 
-<sub>LANGUAGES</sub>
-<br>
-![C++](https://img.shields.io/badge/C++-0071e3?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-0071e3?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0071e3?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0071e3?style=flat-square&logo=javascript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-0071e3?style=flat-square&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0071e3?style=flat-square&logo=kotlin&logoColor=white)
+`AWS Lambda` `API Gateway` `PostgreSQL` `DynamoDB` `SQS` `EventBridge`
 
-<sub>FRAMEWORKS & LIBRARIES</sub>
-<br>
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-ff9500?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-ff9500?style=flat-square&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-ff9500?style=flat-square&logo=hibernate&logoColor=white)
-![React](https://img.shields.io/badge/React-ff9500?style=flat-square&logo=react&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-ff9500?style=flat-square&logo=flask&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-ff9500?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-ff9500?style=flat-square&logo=pandas&logoColor=white)
+- Designed a **7-Lambda serverless architecture**
+- Used DynamoDB atomic counters for concurrency-safe RSVP tracking
+- Built asynchronous notification workflows with SQS
+- Used EventBridge Scheduler for per-event automation
+- Delivered the frontend through CloudFront
 
-<sub>CLOUD & DEVOPS</sub>
-<br>
-![AWS](https://img.shields.io/badge/AWS-34c759?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-34c759?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-34c759?style=flat-square&logo=kubernetes&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-34c759?style=flat-square&logo=apachekafka&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-34c759?style=flat-square&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-34c759?style=flat-square&logo=linux&logoColor=white)
+[Project →](PROJECT_URL) · [Architecture →](ARCHITECTURE_URL)
 
-<sub>DATABASES</sub>
-<br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-af52de?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-af52de?style=flat-square&logo=mysql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-af52de?style=flat-square&logo=databricks&logoColor=white)
+---
 
-</div>
+### 🎵 Playlist Porter
 
-<br>
+**Spotify → Apple Music playlist migration**
 
-## Projects
+A cross-platform music transfer tool that matches tracks between incompatible music catalogues.
+
+`Python` `Spotify API` `Apple Music API`
+
+- Reads source playlists from Spotify
+- Matches tracks against the Apple Music catalogue
+- Recreates playlists while handling unavailable or ambiguous tracks
+
+[Repository →](PROJECT_URL)
+
+---
+
+### 🎮 The Year We Fought Back
+
+**Large-team software engineering studio project**
+
+Built and shipped a Java/LibGDX game in a multi-team environment using shared repositories, sprint delivery, pull requests, and code review.
+
+`Java` `LibGDX` `Git` `Agile`
+
+**My contribution:** gameplay systems, UI screens, boss entities, projectiles, wave systems, and team integration.
+
+[Project →](PROJECT_URL)
+
+---
+
+## Engineering Stack
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎟️ Ticket Tailor
-**Serverless Event Platform** · 2025
+### Backend
 
-![AWS](https://img.shields.io/badge/-AWS%20Lambda-0071e3?style=flat-square&logo=amazon-aws&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/-DynamoDB-0071e3?style=flat-square&logo=amazondynamodb&logoColor=white)
-![Cognito](https://img.shields.io/badge/-Cognito-0071e3?style=flat-square&logo=amazonaws&logoColor=white)
-![API Gateway](https://img.shields.io/badge/-API%20Gateway-0071e3?style=flat-square&logo=amazonapigateway&logoColor=white)
+**Core**  
+Java · Spring Boot  
+Python · FastAPI  
+PostgreSQL
 
-</td>
-<td width="50%" valign="top">
-
-### 🏎️ PitStop Intelligence
-**Real-Time F1 Race Dashboard** · 2025
-
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-ff9500?style=flat-square&logo=spring-boot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-ff9500?style=flat-square&logo=fastapi&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-ff9500?style=flat-square&logo=redis&logoColor=white)
-![WebSocket](https://img.shields.io/badge/-WebSocket-ff9500?style=flat-square&logo=socketdotio&logoColor=white)
+**Also used**  
+C++ · Redis  
+REST · WebSockets
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎵 Playlist Porter
-**Spotify → Apple Music Transfer Tool** · 2025
+### Cloud & Infrastructure
 
-![Python](https://img.shields.io/badge/-Python-34c759?style=flat-square&logo=python&logoColor=white)
-![Spotify API](https://img.shields.io/badge/-Spotify%20API-34c759?style=flat-square&logo=spotify&logoColor=white)
-![Apple Music API](https://img.shields.io/badge/-Apple%20Music%20API-34c759?style=flat-square&logo=applemusic&logoColor=white)
+**Core**  
+AWS Lambda  
+API Gateway  
+Docker
+
+**Also used**  
+DynamoDB · SQS  
+EventBridge · Cognito  
+GitHub Actions
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎮 The Year We Fought Back
-**2D Game — Studio 3 Capstone (Agile Team)** · 2025
+### Applied AI
 
-![Java](https://img.shields.io/badge/-Java-af52de?style=flat-square&logo=openjdk&logoColor=white)
-![LibGDX](https://img.shields.io/badge/-LibGDX-af52de?style=flat-square&logo=java&logoColor=white)
-![Agile](https://img.shields.io/badge/-Agile%20%2F%20Scrum-af52de?style=flat-square&logo=jira&logoColor=white)
+**Core**  
+Python  
+scikit-learn  
+ML pipelines
+
+**Exploring**  
+Embeddings  
+Vector search  
+LLM APIs
 
 </td>
 </tr>
 </table>
 
-<br>
+---
+
+## Experience
+
+### Software Engineer Intern · ChatStat
+
+**Mar 2026 – Present · Brisbane, Australia**
+
+Working across production features and backend services while collaborating with the engineering team to ship real product changes.
 
 ---
 
-<br>
+## GitHub Activity
 
 <div align="center">
-<h2><sub>Activity</sub></h2>
 
-<sub>GitHub · 52-week contribution history</sub>
-
-<br><br>
-
-<img src="https://ghchart.rshah.org/0071e3/anshkataria" width="100%" />
-
-<br>
+<img src="https://ghchart.rshah.org/0071e3/anshkataria" width="100%" alt="Ansh Kataria's GitHub contribution graph">
 
 </div>
 
-<br>
-
 ---
-
-<br>
 
 <div align="center">
 
-<sub>ansh.akataria@gmail.com&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>linkedin.com/in/anshkataria7</sub>](https://www.linkedin.com/in/anshkataria7)<sub>&nbsp;&nbsp;·&nbsp;&nbsp;</sub>[<sub>github.com/anshkataria</sub>](https://github.com/anshkataria)
+### Have something worth building?
 
-<sub>© 2026 Ansh Kataria</sub>
+[Email](mailto:YOUR_EMAIL) · [LinkedIn](YOUR_LINKEDIN_URL) · [Portfolio](YOUR_PORTFOLIO_URL)
+
+<sub>Built by Ansh Kataria · Brisbane, Australia</sub>
 
 </div>
