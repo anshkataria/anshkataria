@@ -1,0 +1,45 @@
+name: README Build
+
+on:
+  schedule:
+    # Runs once every day at midnight UTC. Adjust to taste.
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}   # allows manually triggering the workflow from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "templates/**"
+      - "update.py"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update SVGs with latest GitHub stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: python update.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark.svg light.svg
+          git diff --cached --quiet || git commit -m "chore: update profile stats [skip ci]"
+          git push
