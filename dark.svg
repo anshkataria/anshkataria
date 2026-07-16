@@ -1,0 +1,156 @@
+<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+  <defs>
+    <style>
+      .case { fill: #dc0a2d; }
+      .case-dark { fill: #a80820; }
+      .panel { fill: #fff8e7; }
+      .label { fill: #1a1a1a; font-size: 12px; font-weight: bold; }
+      .value { fill: #1a1a1a; font-size: 12px; }
+      .dash { stroke: #1a1a1a; stroke-width: 1.5; stroke-dasharray: 4 3; }
+    </style>
+  </defs>
+
+  <!-- Outer case -->
+  <rect class="case" x="0" y="0" width="900" height="540" rx="20" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- Header -->
+  <rect class="case-dark" x="0" y="0" width="900" height="92" rx="20"/>
+  <rect class="case-dark" x="0" y="70" width="900" height="22"/>
+  <line x1="0" y1="92" x2="900" y2="92" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Lens -->
+  <circle cx="70" cy="48" r="34" fill="#eaf6ff" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="70" cy="48" r="24" fill="#1976d2" stroke="#1a1a1a" stroke-width="3"/>
+  <ellipse cx="60" cy="38" rx="8" ry="5" fill="#ffffff" opacity="0.75"/>
+
+  <!-- Indicator lights -->
+  <circle cx="132" cy="30" r="8" fill="#ff5f56" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="156" cy="30" r="8" fill="#ffbd2e" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="180" cy="30" r="8" fill="#27c93f" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <text x="864" y="56" text-anchor="end" font-size="20" font-weight="bold" fill="#ffffff">anshkataria.dex</text>
+
+  <!-- Screen bezel (left) -->
+  <rect x="24" y="112" width="380" height="400" rx="14" fill="#1a1a1a"/>
+  <text x="42" y="132" font-size="11" letter-spacing="2" fill="#cfcfcf">SCANNER</text>
+  <rect x="40" y="140" width="348" height="354" rx="6" fill="#01120a" stroke="#0a3d1a" stroke-width="2"/>
+  <text class="portrait" font-size="9" fill="#39d353">
+<tspan x="50" y="145.00" xml:space="preserve">---========-------------==--==--------:-----------:-%%##+=+*#%%*--:::...      .#+.:.:   . </tspan>
+<tspan x="50" y="155.00" xml:space="preserve">---::---------==========--------------==------:-::.+@%%#==#*#%%*-::.......    .=+.  :. :  </tspan>
+<tspan x="50" y="165.00" xml:space="preserve">++=++=====-------------====---::::---::--:-:----:::=#+++--*%%@@#+-.....::....  :+.  ..:-  </tspan>
+<tspan x="50" y="175.00" xml:space="preserve">++++++++===============-:.      ..::::::-----:::::::::.:-::-=+##+-.........   .-+   ..-.  </tspan>
+<tspan x="50" y="185.00" xml:space="preserve">==+++*****++++++++===-.            ...:--===-:::::....:::.::::::=-::.  .....:..:*.  : :.  </tspan>
+<tspan x="50" y="195.00" xml:space="preserve">+===========+++++****:                ...::::....:...:...:::-------:::...:...  :*.  :..  .</tspan>
+<tspan x="50" y="205.00" xml:space="preserve">+++++++++++++++*++++-                     ...::::::::----::-:::::::-----::..  ..-.   .: ..</tspan>
+<tspan x="50" y="215.00" xml:space="preserve">+++++++++====-==+===:                   .....::::-:::::::::::-::::::::----:.  ..     .::  </tspan>
+<tspan x="50" y="225.00" xml:space="preserve">--===++++++*=--::.:..                    ....:::--:....::--::::-:-:::----:--:...    .:. ..</tspan>
+<tspan x="50" y="235.00" xml:space="preserve">++++==+++==+=:.......                  ....::--::..:::---:----::-:::::-::.:-:::.....--:--:</tspan>
+<tspan x="50" y="245.00" xml:space="preserve">======++++++--.......                      .... ...::----:::.:::::::-::-::::--:-=-:==:-.  </tspan>
+<tspan x="50" y="255.00" xml:space="preserve">**++++*++=--:::..            ..                 ..:::--:. ...:::----------::-=--:.:-...   </tspan>
+<tspan x="50" y="265.00" xml:space="preserve">==+===+++==--::.        ......::. .............:-:..:::....::---:::::--:--::--:::..::...  </tspan>
+<tspan x="50" y="275.00" xml:space="preserve">#*******++==:.       .:--:::::.::...  ......:----:.:..  ....::....:-:-::::::::---:::::::::</tspan>
+<tspan x="50" y="285.00" xml:space="preserve">========++==:.      .-===---:::......      ..::-:.--.  . ......::---::....:--::--::-::::::</tspan>
+<tspan x="50" y="295.00" xml:space="preserve">*++**++***++-.      :==+===---:::...........::::::::.........:----:.......:-:::::=::::::::</tspan>
+<tspan x="50" y="305.00" xml:space="preserve">++++++=======-.    .-==+====---::::..   .......::.      ....:::::-:.   .....::::::--::::::</tspan>
+<tspan x="50" y="315.00" xml:space="preserve">+++***++++++***=.  :-=+**+++==--:::-:::........           .:::..::...::........ ....:--:::</tspan>
+<tspan x="50" y="325.00" xml:space="preserve">====--==---====-.  ==+***##*++=========--====-:....      ... ............::.::..   .:-----</tspan>
+<tspan x="50" y="335.00" xml:space="preserve">**++++**+++++*++- :-:--=+*#*+=:-::::---======+++====--=====-:... ... ....:.:::.:    ::::::</tspan>
+<tspan x="50" y="345.00" xml:space="preserve">*****++++*+++***=..  ..:-++**+---:::..::-=====++*++++*******+=:       ....:...::.  ----:::</tspan>
+<tspan x="50" y="355.00" xml:space="preserve">+++++++++++++++=    .::-+*++##*######*******+#%%@%#%%%%%%%%%%%#*++-::.....:..::..:--------</tspan>
+<tspan x="50" y="365.00" xml:space="preserve">*+**++++++++**#*+*####*=:..:+%%*=::.         :%%@@@@@@@@@@@@@@@@@@@*++- ..:-..:..:-:::::::</tspan>
+<tspan x="50" y="375.00" xml:space="preserve">+++++++%@@%#*++==-:::-=#%+*#@%:               #%@@@@@@@@@@@@@@@@@@=..-+-+*##*-...-======--</tspan>
+<tspan x="50" y="385.00" xml:space="preserve">*******%@#--:.          #@#*@* .              +@@@@@@@@@@@@@@@@@%=:=++**##*+=#: .=********</tspan>
+<tspan x="50" y="395.00" xml:space="preserve">=======+@%::::..        =@+*#%-               =@@@%##********###-:=*#*###%%#=*+ .=====++++</tspan>
+<tspan x="50" y="405.00" xml:space="preserve">********%@=...         .*##%%%%+-::::::--==++*###*+===++****###*==+#*+=+*#%#+#-.++++++*+++</tspan>
+<tspan x="50" y="415.00" xml:space="preserve">++++++++*@@==---:---=++*##%%%%#**********+++*++++***####%%#####*++*%#*#++=*#** =**********</tspan>
+<tspan x="50" y="425.00" xml:space="preserve">***+++++**########+==-:+#%%%%%%#*++++++*******###*#############*==*%##%%*+###. -=======+++</tspan>
+<tspan x="50" y="435.00" xml:space="preserve">===========-------:---*%%%%%%%%%%%##+**########################+==*#**#####%: .+++++++++++</tspan>
+<tspan x="50" y="445.00" xml:space="preserve">++++++*****++++++==+++*#%%%%#######*+++**#####################*===*#*#%%%#%=  =++++++++***</tspan>
+<tspan x="50" y="455.00" xml:space="preserve">+++**********+++*+=+++==+*****++++**##****#################***====#####%%@=  -===---------</tspan>
+<tspan x="50" y="465.00" xml:space="preserve">-------======--=======-..:-===---=+******################**+++==-+***+#%*- .++++++++++++++</tspan>
+<tspan x="50" y="475.00" xml:space="preserve">++++++++++++++++++-=-:       ..::::::----*############***+++===--++*=--.  -+++++++*++++++*</tspan>
+<tspan x="50" y="485.00" xml:space="preserve">========++++++++++-:.   .---=+++*++==-::.:+#######**+**++++=+==--*##.   .-===========-====</tspan>
+<tspan x="50" y="495.00" xml:space="preserve">++++++++++++++++++=.   ::--=+==++++++=--=-=####***+++++++++++-=-=#%-   :=++++++++++++++***</tspan>
+<tspan x="50" y="505.00" xml:space="preserve">--------------------..  .:=++=*###**+++===+####*++++++++++++=---*%#..:=++++++++++++++++++=</tspan>
+<tspan x="50" y="515.00" xml:space="preserve">++++++++++++++++++++:..:::=+=+++++**##%#*+*####*++++=+++++=--:-+%%+:=---=-==--------------</tspan>
+<tspan x="50" y="525.00" xml:space="preserve">+++++++++++++++++++++....   .   .-+**###**+####*++==+=====--:.-#%#--=--=+++******++******#</tspan>
+<tspan x="50" y="535.00" xml:space="preserve">========-=========---:  .::::. .-*##*****+=+**#**+=-=--=-::..-##%*--=+==++++++++==========</tspan>
+<tspan x="50" y="545.00" xml:space="preserve">==-=========++++++++++. .---===+*###****+---=+++=-------::.:+####++==-:--=---==--------===</tspan>
+<tspan x="50" y="555.00" xml:space="preserve">===============++++==-. .::-====+*++++====-----::::::--::-=#####*.-*+--===++++****+++*****</tspan>
+<tspan x="50" y="565.00" xml:space="preserve">++=======++=======-:..  ..::----==-----=----::.::.....:-+*######+:.:=++**+++====----------</tspan>
+<tspan x="50" y="575.00" xml:space="preserve">:::::::::::-----:::..  : .......:::::::::::::......:-=+*****####+:+=.=+****++=====---=====</tspan>
+<tspan x="50" y="585.00" xml:space="preserve">=====+*****+==----:.  .-.      ........... ....:-==+********####*.=@::=****+=++++*+=++++++</tspan>
+<tspan x="50" y="595.00" xml:space="preserve">===+*****+++==-:::... :=:...       ........:::-+****************-:%%.:-=++++*+==++=+***+=-</tspan>
+<tspan x="50" y="605.00" xml:space="preserve">***#***=========-::.. -+-:::.:::--=*####*+++++===+++**********+==%@%=::-=+++***=-==+++*+++</tspan>
+<tspan x="50" y="615.00" xml:space="preserve">#********+=+++++==-::.=##=-::.:-===*%%%%%%%%%%##**********###%%%@@%%#:-=::++++*#*=-===++++</tspan>
+<tspan x="50" y="625.00" xml:space="preserve">******++++++++====-::.=##++::::-=+=+#%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@%#+:::-++++*+**#+==++==</tspan>
+<tspan x="50" y="635.00" xml:space="preserve">*+++**+===+**+===-=-:.=%#**--====++*#%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@%%*---+++**+**#%%*==+==</tspan>
+ 
+ </text>
+
+  <!-- power dots -->
+  <circle cx="56" cy="500" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="76" cy="500" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="96" cy="500" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- Data panel (right) -->
+  <rect x="420" y="112" width="460" height="400" rx="14" fill="#fff8e7" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="420" y="112" width="460" height="36" rx="14" fill="#1a1a1a"/>
+  <rect x="420" y="130" width="460" height="18" fill="#1a1a1a"/>
+  <text x="436" y="136" font-size="17" font-weight="bold" fill="#ffffff">Ansh Kataria</text>
+  <text x="864" y="136" text-anchor="end" font-size="12" fill="#ffffff">ID: anshkataria</text>
+
+  <text class="label" x="436" y="168">ROLE</text>
+  <text class="value" x="500" y="168">SWE Student</text>
+  <line class="dash" x1="436" y1="180" x2="864" y2="180"/>
+
+  <text class="label" x="436" y="202">TYPES</text>
+  <g>
+    <rect x="436" y="216" width="130" height="26" rx="13" fill="#EE8130" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="501" y="233" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">SpringBoot</text>
+  </g>
+  <g>
+    <rect x="576" y="216" width="130" height="26" rx="13" fill="#6390F0" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="641" y="233" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">Python</text>
+  </g>
+  <g>
+    <rect x="716" y="216" width="130" height="26" rx="13" fill="#7AC74C" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="781" y="233" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">C++</text>
+  </g>
+  <g>
+    <rect x="436" y="248" width="130" height="26" rx="13" fill="#F7D02C" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="501" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">SQL</text>
+  </g>
+  <g>
+    <rect x="576" y="248" width="130" height="26" rx="13" fill="#A33EA1" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="641" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">GenAI/ML</text>
+  </g>
+  <g>
+    <rect x="716" y="248" width="130" height="26" rx="13" fill="#96D9D6" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="781" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">DevOps</text>
+  </g>
+  <line class="dash" x1="436" y1="284" x2="864" y2="284"/>
+
+  <text class="label" x="436" y="302">STATS</text>
+  <text x="436" y="316" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">REPOS</text>
+  <rect x="620" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="305" width="10" height="10" rx="2" fill="#6390F0" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="762" y="316" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">13</text>
+  <text x="436" y="336" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">STARS</text>
+  <rect x="620" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="325" width="10" height="10" rx="2" fill="#F7D02C" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="762" y="336" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">0</text>
+  <text x="436" y="356" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">FOLLOW</text>
+  <rect x="620" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="345" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="762" y="356" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">2</text>
+  <text x="436" y="376" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">COMMIT</text>
+  <rect x="620" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="365" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="762" y="376" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">911</text>
+  <line class="dash" x1="436" y1="390" x2="864" y2="390"/>
+
+  <text class="label" x="436" y="408">ENTRY</text>
+  <text class="value" x="436" y="426" font-size="11">Builder</text>
+  <line class="dash" x1="436" y1="458" x2="864" y2="458"/>
+
+  <text class="label" x="436" y="476" font-size="11">CONTACT</text>
+  <text class="value" x="436" y="492" font-size="11">anshkataria710@gmail.com</text>
+  <text class="value" x="436" y="506" font-size="11">anshkataria.me</text>
+</svg>
