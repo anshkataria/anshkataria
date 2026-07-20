@@ -14,20 +14,30 @@ Run locally:
     export ACCESS_TOKEN=ghp_xxxxxxxxxxxx
     export USER_NAME=your-username
     python update.py
+
+Note on commit counts: GitHub's contributionsCollection only covers a
+maximum 1-year window per query and defaults to the last 12 months if you
+don't pass explicit from/to dates. To get an accurate LIFETIME commit count,
+this script loops year-by-year from the account's creation date to today
+and sums totalCommitContributions + restrictedContributionsCount for each
+year. This means one extra API call per year the account has existed
+(a 5-year-old account = ~5 calls), which is still well within GitHub's rate
+limits for a daily cron job.
 """
 
 import os
 import re
 import sys
+from datetime import datetime, timezone
 import requests
 
 GITHUB_API = "https://api.github.com/graphql"
 
 # Templates keep every {{PLACEHOLDER}} token intact so this script can be run
 # repeatedly (each run reads the template fresh and writes a resolved copy).
-# Fill in your personal info (NAME, ROLE, BIO, TOOLCHAIN_LINE_1, etc.) directly
-# inside the *.template.svg files once - only the GitHub-stat placeholders
-# below get replaced automatically on every run.
+# Fill in your personal info (NAME, ROLE, BIO, TYPE_1..TYPE_6, EMAIL,
+# PORTFOLIO) directly inside the *.template.svg files once - only the
+# GitHub-stat placeholders below get replaced automatically on every run.
 TEMPLATE_TO_OUTPUT = {
     "templates/dark.template.svg": "dark.svg",
     "templates/light.template.svg": "light.svg",
@@ -35,6 +45,9 @@ TEMPLATE_TO_OUTPUT = {
 
 # Placeholders that will be substituted inside the SVG files.
 # Add or remove entries here to match what you display in your template.
+# (STARS/FOLLOWERS are still computed and available below even though the
+# default template no longer displays them - add {{STARS}} / {{FOLLOWERS}}
+# back into your template if you want them.)
 PLACEHOLDERS = [
     "USERNAME",
     "REPOS",
@@ -45,29 +58,11 @@ PLACEHOLDERS = [
 ]
 
 
-def graphql_query(token: str, username: str) -> dict:
-    query = """
-    query($login: String!) {
-      user(login: $login) {
-        login
-        followers { totalCount }
-        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
-          totalCount
-          nodes {
-            stargazerCount
-          }
-        }
-        contributionsCollection {
-          totalCommitContributions
-          restrictedContributionsCount
-        }
-      }
-    }
-    """
+def gql(token: str, query: str, variables: dict) -> dict:
     headers = {"Authorization": f"bearer {token}"}
     resp = requests.post(
         GITHUB_API,
-        json={"query": query, "variables": {"login": username}},
+        json={"query": query, "variables": variables},
         headers=headers,
         timeout=30,
     )
@@ -75,15 +70,79 @@ def graphql_query(token: str, username: str) -> dict:
     payload = resp.json()
     if "errors" in payload:
         raise RuntimeError(f"GitHub GraphQL error: {payload['errors']}")
-    return payload["data"]["user"]
+    return payload["data"]
+
+
+def get_profile_summary(token: str, username: str) -> dict:
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        login
+        createdAt
+        followers { totalCount }
+        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+          totalCount
+          nodes {
+            stargazerCount
+          }
+        }
+      }
+    }
+    """
+    data = gql(token, query, {"login": username})
+    return data["user"]
+
+
+def total_commits_all_time(token: str, username: str, created_at_iso: str) -> int:
+    """
+    Sum commit contributions across every year the account has existed,
+    since contributionsCollection only covers 1 year per call.
+    """
+    created = datetime.fromisoformat(created_at_iso.replace("Z", "+00:00"))
+    now = datetime.now(timezone.utc)
+
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          totalCommitContributions
+          restrictedContributionsCount
+        }
+      }
+    }
+    """
+
+    total = 0
+    window_start = created
+    while window_start < now:
+        # Each window is at most 1 year, per GitHub's API limit.
+        try:
+            next_year = window_start.replace(year=window_start.year + 1)
+        except ValueError:
+            # Feb 29 on a non-leap year - fall back a day.
+            next_year = window_start.replace(year=window_start.year + 1, day=28)
+        window_end = min(next_year, now)
+        variables = {
+            "login": username,
+            "from": window_start.isoformat(),
+            "to": window_end.isoformat(),
+        }
+        data = gql(token, query, variables)
+        contrib = data["user"]["contributionsCollection"]
+        total += contrib["totalCommitContributions"]
+        total += contrib["restrictedContributionsCount"]
+        window_start = window_end
+
+    return total
 
 
 def estimate_loc(token: str, username: str) -> str:
     """
     GitHub's API doesn't expose a direct 'lines of code' metric.
-    This is a lightweight estimate based on total additions across the
-    user's own repos via the REST search API. For a more accurate number,
-    consider swapping in a dedicated LOC-counting action.
+    This is a lightweight estimate based on total repo size via the REST
+    search API. For a more precise number, consider swapping in a
+    dedicated LOC-counting action (e.g. github-readme-stats' LOC add-on,
+    or a tool like `cloc` run against clones of your repos in the workflow).
     """
     headers = {"Authorization": f"token {token}"}
     resp = requests.get(
@@ -100,17 +159,16 @@ def estimate_loc(token: str, username: str) -> str:
 
 
 def build_stats(token: str, username: str) -> dict:
-    user = graphql_query(token, username)
-    repos = user["repositories"]
+    profile = get_profile_summary(token, username)
+    repos = profile["repositories"]
     total_stars = sum(node["stargazerCount"] for node in repos["nodes"])
-    contrib = user["contributionsCollection"]
-    total_commits = contrib["totalCommitContributions"] + contrib["restrictedContributionsCount"]
+    total_commits = total_commits_all_time(token, username, profile["createdAt"])
 
     return {
-        "USERNAME": user["login"],
+        "USERNAME": profile["login"],
         "REPOS": str(repos["totalCount"]),
         "STARS": str(total_stars),
-        "FOLLOWERS": str(user["followers"]["totalCount"]),
+        "FOLLOWERS": str(profile["followers"]["totalCount"]),
         "COMMITS": str(total_commits),
         "LOC": estimate_loc(token, username),
     }
@@ -137,7 +195,7 @@ def update_svg_files(stats: dict) -> None:
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(updated)
 
-        remaining = re.findall(r"\{\{[A-Z_]+\}\}", updated)
+        remaining = re.findall(r"\{\{[A-Z_0-9]+\}\}", updated)
         note = f" (remaining placeholders: {remaining} - fill these in the template)" if remaining else ""
         print(f"Generated {output_path} from {template_path}{note}")
 
