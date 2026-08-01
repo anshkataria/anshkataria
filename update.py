@@ -15,20 +15,14 @@ Run locally:
     export USER_NAME=your-username
     python update.py
 
-Note on commit counts: GitHub's contributionsCollection only covers a
-maximum 1-year window per query and defaults to the last 12 months if you
-don't pass explicit from/to dates. To get an accurate LIFETIME commit count,
-this script loops year-by-year from the account's creation date to today
-and sums totalCommitContributions for each year. This means one extra API
-call per year the account has existed (a 5-year-old account = ~5 calls),
-which is still well within GitHub's rate limits for a daily cron job.
-
-We deliberately do NOT add restrictedContributionsCount here. It looks like
-a "private commits" counter but it is actually a count of ALL restricted
-contribution types (private issues, PRs, reviews - not just commits), so
-adding it inflates COMMITS with non-commit activity. totalCommitContributions
-already includes private-repo commits in full when queried with the
-profile owner's own token, so no extra term is needed.
+Note on commit counts: we do NOT display a single lifetime commit number.
+GitHub's contributionsCollection only covers 1 year per query, so a lifetime
+total requires summing across years - which is exactly the kind of derived
+number that's easy to get subtly wrong (double-counting restricted/private
+contribution types, year-boundary edge cases, etc). Instead, ACTIVITY_GRID
+renders the actual last-52-weeks contribution calendar as a heatmap, the
+same underlying per-day counts GitHub's own graph uses, so there's no
+computed total to be wrong.
 """
 
 import os
@@ -59,9 +53,9 @@ PLACEHOLDERS = [
     "REPOS",
     "STARS",
     "FOLLOWERS",
-    "COMMITS",
     "LOC",
     "STREAK",
+    "ACTIVITY_GRID",
 ]
 
 
@@ -100,53 +94,12 @@ def get_profile_summary(token: str, username: str) -> dict:
     return data["user"]
 
 
-def total_commits_all_time(token: str, username: str, created_at_iso: str) -> int:
+def fetch_contribution_weeks(token: str, username: str) -> list:
     """
-    Sum commit contributions across every year the account has existed,
-    since contributionsCollection only covers 1 year per call.
-    """
-    created = datetime.fromisoformat(created_at_iso.replace("Z", "+00:00"))
-    now = datetime.now(timezone.utc)
-
-    query = """
-    query($login: String!, $from: DateTime!, $to: DateTime!) {
-      user(login: $login) {
-        contributionsCollection(from: $from, to: $to) {
-          totalCommitContributions
-        }
-      }
-    }
-    """
-
-    total = 0
-    window_start = created
-    while window_start < now:
-        # Each window is at most 1 year, per GitHub's API limit.
-        try:
-            next_year = window_start.replace(year=window_start.year + 1)
-        except ValueError:
-            # Feb 29 on a non-leap year - fall back a day.
-            next_year = window_start.replace(year=window_start.year + 1, day=28)
-        window_end = min(next_year, now)
-        variables = {
-            "login": username,
-            "from": window_start.isoformat(),
-            "to": window_end.isoformat(),
-        }
-        data = gql(token, query, variables)
-        contrib = data["user"]["contributionsCollection"]
-        total += contrib["totalCommitContributions"]
-        window_start = window_end
-
-    return total
-
-
-def current_streak(token: str, username: str) -> int:
-    """
-    Counts consecutive days (ending today) with at least one contribution,
-    using the last year of the contribution calendar. Today is allowed to
-    have zero contributions without breaking the streak, since the day
-    isn't over yet.
+    Returns the last ~52 weeks of the contribution calendar as GitHub groups
+    it: a list of weeks, each with 7 contributionDays (Sun-Sat), in
+    chronological order. Used to derive both STREAK and ACTIVITY_GRID from a
+    single API call instead of querying twice.
     """
     now = datetime.now(timezone.utc)
     try:
@@ -176,13 +129,21 @@ def current_streak(token: str, username: str) -> int:
         "to": now.isoformat(),
     }
     data = gql(token, query, variables)
-    weeks = data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    return data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+
+def current_streak(weeks: list) -> int:
+    """
+    Counts consecutive days (ending today) with at least one contribution.
+    Today is allowed to have zero contributions without breaking the streak,
+    since the day isn't over yet.
+    """
     days = sorted(
         (d for week in weeks for d in week["contributionDays"]),
         key=lambda d: d["date"],
     )
+    today_str = datetime.now(timezone.utc).date().isoformat()
 
-    today_str = now.date().isoformat()
     streak = 0
     for day in reversed(days):
         if day["date"] == today_str and day["contributionCount"] == 0:
@@ -193,6 +154,45 @@ def current_streak(token: str, username: str) -> int:
             break
 
     return streak
+
+
+# Fixed contribution-count -> color thresholds, in ascending order of upper
+# bound (inclusive). The heatmap sits directly under the STREAK row, so the
+# palette is a warm-to-flame gradient rather than GitHub's green.
+_HEATMAP_LEVELS = [
+    (0, "#e2d9c3"),
+    (2, "#FFC98B"),
+    (5, "#FF9F4A"),
+    (9, "#EE8130"),
+]
+_HEATMAP_MAX_COLOR = "#C1121F"
+
+
+def _heatmap_color(count: int) -> str:
+    for upper, color in _HEATMAP_LEVELS:
+        if count <= upper:
+            return color
+    return _HEATMAP_MAX_COLOR
+
+
+def build_activity_heatmap(weeks: list, x: int = 436, y: int = 442, cell: int = 6, gap: int = 1) -> str:
+    """
+    Renders the last 52 weeks of contributionDays as a grid of <rect> cells
+    (columns = weeks, rows = day-of-week), positioned to match the fixed
+    ACTIVITY block coordinates in templates/*.template.svg.
+    """
+    pitch = cell + gap
+    rects = []
+    for col, week in enumerate(weeks[-52:]):
+        for row, day in enumerate(week["contributionDays"]):
+            cx = x + col * pitch
+            cy = y + row * pitch
+            fill = _heatmap_color(day["contributionCount"])
+            rects.append(
+                f'<rect x="{cx}" y="{cy}" width="{cell}" height="{cell}" rx="1" '
+                f'fill="{fill}" stroke="#1a1a1a" stroke-width="0.4"/>'
+            )
+    return "".join(rects)
 
 
 def estimate_loc(token: str, username: str) -> str:
@@ -221,17 +221,16 @@ def build_stats(token: str, username: str) -> dict:
     profile = get_profile_summary(token, username)
     repos = profile["repositories"]
     total_stars = sum(node["stargazerCount"] for node in repos["nodes"])
-    total_commits = total_commits_all_time(token, username, profile["createdAt"])
-    streak = current_streak(token, username)
+    weeks = fetch_contribution_weeks(token, username)
 
     return {
         "USERNAME": profile["login"],
         "REPOS": str(repos["totalCount"]),
         "STARS": str(total_stars),
         "FOLLOWERS": str(profile["followers"]["totalCount"]),
-        "COMMITS": str(total_commits),
         "LOC": estimate_loc(token, username),
-        "STREAK": str(streak),
+        "STREAK": str(current_streak(weeks)),
+        "ACTIVITY_GRID": build_activity_heatmap(weeks),
     }
 
 
