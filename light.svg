@@ -1,20 +1,20 @@
-<svg width="900" height="580" viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, 'Courier New', monospace">
   <defs>
     <style>
-      .case { fill: #4a90d9; }
-      .case-dark { fill: #2f6bb0; }
+      .case { fill: #dc0a2d; }
+      .case-dark { fill: #a80820; }
       .panel { fill: #f5f9ff; }
       .label { fill: #1a1a1a; font-size: 12px; font-weight: bold; }
       .value { fill: #1a1a1a; font-size: 12px; }
       .dash { stroke: #1a1a1a; stroke-width: 1.5; stroke-dasharray: 4 3; }
     </style>
     <clipPath id="portraitClip">
-      <rect x="40" y="140" width="348" height="394"/>
+      <rect x="40" y="140" width="348" height="434"/>
     </clipPath>
   </defs>
 
   <!-- Outer case -->
-  <rect class="case" x="0" y="0" width="900" height="580" rx="20" stroke="#1a1a1a" stroke-width="5"/>
+  <rect class="case" x="0" y="0" width="900" height="620" rx="20" stroke="#1a1a1a" stroke-width="5"/>
 
   <!-- Header -->
   <rect class="case-dark" x="0" y="0" width="900" height="92" rx="20"/>
@@ -23,7 +23,7 @@
 
   <!-- Lens -->
   <circle cx="70" cy="48" r="34" fill="#eaf6ff" stroke="#1a1a1a" stroke-width="4"/>
-  <circle cx="70" cy="48" r="24" fill="#dc0a2d" stroke="#1a1a1a" stroke-width="3"/>
+  <circle cx="70" cy="48" r="24" fill="#1976d2" stroke="#1a1a1a" stroke-width="3"/>
   <ellipse cx="60" cy="38" rx="8" ry="5" fill="#ffffff" opacity="0.75"/>
 
   <!-- Indicator lights -->
@@ -34,9 +34,9 @@
   <text x="864" y="56" text-anchor="end" font-size="20" font-weight="bold" fill="#ffffff">anshkataria.dex</text>
 
   <!-- Screen bezel (left) -->
-  <rect x="24" y="112" width="380" height="440" rx="14" fill="#1a1a1a"/>
+  <rect x="24" y="112" width="380" height="480" rx="14" fill="#1a1a1a"/>
   <text x="42" y="132" font-size="11" letter-spacing="2" fill="#cfcfcf">SCANNER</text>
-  <rect x="40" y="140" width="348" height="394" rx="6" fill="#01120a" stroke="#0a3d1a" stroke-width="2"/>
+  <rect x="40" y="140" width="348" height="434" rx="6" fill="#01120a" stroke="#0a3d1a" stroke-width="2"/>
   <text class="portrait" fill="#39d353" clip-path="url(#portraitClip)">
 <tspan x="48" y="153.88" font-size="5.88" xml:space="preserve">---========-------------==--==--------:-----------:-%%##+=+*#%%*--:::...      .#+.:.:   . </tspan>
 <tspan x="48" y="160.64" font-size="5.88" xml:space="preserve">---::---------==========--------------==------:-::.+@%%#==#*#%%*-::.......    .=+.  :. :  </tspan>
@@ -92,45 +92,45 @@
  </text>
 
   <!-- power dots -->
-  <circle cx="56" cy="540" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
-  <circle cx="76" cy="540" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
-  <circle cx="96" cy="540" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="56" cy="568" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="76" cy="568" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="96" cy="568" r="7" fill="#555" stroke="#1a1a1a" stroke-width="1.5"/>
 
   <!-- Data panel (right) -->
-  <rect x="420" y="112" width="460" height="440" rx="14" fill="#f5f9ff" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="420" y="112" width="460" height="480" rx="14" fill="#f5f9ff" stroke="#1a1a1a" stroke-width="4"/>
   <rect x="420" y="112" width="460" height="36" rx="14" fill="#1a1a1a"/>
   <rect x="420" y="130" width="460" height="18" fill="#1a1a1a"/>
-  <text x="436" y="136" font-size="17" font-weight="bold" fill="#ffffff">{{NAME}}</text>
+  <text x="436" y="136" font-size="17" font-weight="bold" fill="#ffffff">Ansh Kataria</text>
   <text x="864" y="136" text-anchor="end" font-size="12" fill="#ffffff">ID: anshkataria</text>
 
   <text class="label" x="436" y="168">ROLE</text>
-  <text class="value" x="500" y="168">{{ROLE}}</text>
+  <text class="value" x="500" y="168">SWE Student</text>
   <line class="dash" x1="436" y1="182" x2="864" y2="182"/>
 
   <text class="label" x="436" y="206">TYPES</text>
   <g>
     <rect x="436" y="222" width="130" height="26" rx="13" fill="#EE8130" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="501" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_1}}</text>
+    <text x="501" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">SpringBoot</text>
   </g>
   <g>
     <rect x="576" y="222" width="130" height="26" rx="13" fill="#6390F0" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="641" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_2}}</text>
+    <text x="641" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">Python</text>
   </g>
   <g>
     <rect x="716" y="222" width="130" height="26" rx="13" fill="#7AC74C" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="781" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_3}}</text>
+    <text x="781" y="239" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">C++</text>
   </g>
   <g>
     <rect x="436" y="256" width="130" height="26" rx="13" fill="#F7D02C" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="501" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_4}}</text>
+    <text x="501" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">DevOps</text>
   </g>
   <g>
     <rect x="576" y="256" width="130" height="26" rx="13" fill="#A33EA1" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="641" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_5}}</text>
+    <text x="641" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">GenAI/ML</text>
   </g>
   <g>
     <rect x="716" y="256" width="130" height="26" rx="13" fill="#96D9D6" stroke="#1a1a1a" stroke-width="2"/>
-    <text x="781" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">{{TYPE_6}}</text>
+    <text x="781" y="273" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a1a1a" font-family="Consolas, monospace">DB</text>
   </g>
   <line class="dash" x1="436" y1="300" x2="864" y2="300"/>
 
@@ -140,19 +140,25 @@
   <text x="762" y="338" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">8</text>
   <text x="436" y="366" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">LOC</text>
   <rect x="620" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="355" width="10" height="10" rx="2" fill="#7AC74C" stroke="#1a1a1a" stroke-width="1"/>
-  <text x="762" y="366" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">912,520+</text>
+  <text x="762" y="366" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">912,680+</text>
   <text x="436" y="394" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">COMMIT</text>
   <rect x="620" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="383" width="10" height="10" rx="2" fill="#EE8130" stroke="#1a1a1a" stroke-width="1"/>
-  <text x="762" y="394" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">1002</text>
-  <line class="dash" x1="436" y1="412" x2="864" y2="412"/>
+  <text x="762" y="394" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">770</text>
+  <text x="436" y="422" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">STREAK</text>
+  <rect x="620" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="634" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="648" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="662" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="676" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="690" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="704" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="718" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="732" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/><rect x="746" y="411" width="10" height="10" rx="2" fill="#FF6B4A" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="762" y="422" font-size="12" font-family="Consolas, monospace" fill="#1a1a1a" font-weight="bold">1d 🔥</text>
+  <line class="dash" x1="436" y1="440" x2="864" y2="440"/>
 
-  <text class="label" x="436" y="434">ENTRY</text>
-  <text class="value" x="436" y="452" font-size="11">{{BIO}}</text>
-  <line class="dash" x1="436" y1="472" x2="864" y2="472"/>
+  <text class="label" x="436" y="462">ENTRY</text>
+  <text class="value" x="436" y="480" font-size="11">Builder</text>
+  <line class="dash" x1="436" y1="500" x2="864" y2="500"/>
 
-  <text class="label" x="436" y="494" font-size="11">EMAIL</text>
-  <text class="value" x="500" y="494" font-size="11">{{EMAIL}}</text>
+  <text class="label" x="436" y="522" font-size="11">EMAIL</text>
+  <text class="value" x="500" y="522" font-size="11">anshkataria710@gmail.com</text>
 
-  <text class="label" x="436" y="514" font-size="11">PORTFOLIO</text>
-  <text class="value" x="530" y="514" font-size="11">{{PORTFOLIO}}</text>
+  <text class="label" x="436" y="542" font-size="11">LINKEDIN</text>
+  <text class="value" x="530" y="542" font-size="11">linkedin.com/in/anshkataria7</text>
+
+  <text class="label" x="436" y="562" font-size="11">PORTFOLIO</text>
+  <text class="value" x="530" y="562" font-size="11">anshkataria.me</text>
 </svg>
