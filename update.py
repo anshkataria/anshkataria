@@ -19,10 +19,16 @@ Note on commit counts: GitHub's contributionsCollection only covers a
 maximum 1-year window per query and defaults to the last 12 months if you
 don't pass explicit from/to dates. To get an accurate LIFETIME commit count,
 this script loops year-by-year from the account's creation date to today
-and sums totalCommitContributions + restrictedContributionsCount for each
-year. This means one extra API call per year the account has existed
-(a 5-year-old account = ~5 calls), which is still well within GitHub's rate
-limits for a daily cron job.
+and sums totalCommitContributions for each year. This means one extra API
+call per year the account has existed (a 5-year-old account = ~5 calls),
+which is still well within GitHub's rate limits for a daily cron job.
+
+We deliberately do NOT add restrictedContributionsCount here. It looks like
+a "private commits" counter but it is actually a count of ALL restricted
+contribution types (private issues, PRs, reviews - not just commits), so
+adding it inflates COMMITS with non-commit activity. totalCommitContributions
+already includes private-repo commits in full when queried with the
+profile owner's own token, so no extra term is needed.
 """
 
 import os
@@ -55,6 +61,7 @@ PLACEHOLDERS = [
     "FOLLOWERS",
     "COMMITS",
     "LOC",
+    "STREAK",
 ]
 
 
@@ -106,7 +113,6 @@ def total_commits_all_time(token: str, username: str, created_at_iso: str) -> in
       user(login: $login) {
         contributionsCollection(from: $from, to: $to) {
           totalCommitContributions
-          restrictedContributionsCount
         }
       }
     }
@@ -130,10 +136,63 @@ def total_commits_all_time(token: str, username: str, created_at_iso: str) -> in
         data = gql(token, query, variables)
         contrib = data["user"]["contributionsCollection"]
         total += contrib["totalCommitContributions"]
-        total += contrib["restrictedContributionsCount"]
         window_start = window_end
 
     return total
+
+
+def current_streak(token: str, username: str) -> int:
+    """
+    Counts consecutive days (ending today) with at least one contribution,
+    using the last year of the contribution calendar. Today is allowed to
+    have zero contributions without breaking the streak, since the day
+    isn't over yet.
+    """
+    now = datetime.now(timezone.utc)
+    try:
+        one_year_ago = now.replace(year=now.year - 1)
+    except ValueError:
+        one_year_ago = now.replace(year=now.year - 1, day=28)
+
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    variables = {
+        "login": username,
+        "from": one_year_ago.isoformat(),
+        "to": now.isoformat(),
+    }
+    data = gql(token, query, variables)
+    weeks = data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    days = sorted(
+        (d for week in weeks for d in week["contributionDays"]),
+        key=lambda d: d["date"],
+    )
+
+    today_str = now.date().isoformat()
+    streak = 0
+    for day in reversed(days):
+        if day["date"] == today_str and day["contributionCount"] == 0:
+            continue
+        if day["contributionCount"] > 0:
+            streak += 1
+        else:
+            break
+
+    return streak
 
 
 def estimate_loc(token: str, username: str) -> str:
@@ -163,6 +222,7 @@ def build_stats(token: str, username: str) -> dict:
     repos = profile["repositories"]
     total_stars = sum(node["stargazerCount"] for node in repos["nodes"])
     total_commits = total_commits_all_time(token, username, profile["createdAt"])
+    streak = current_streak(token, username)
 
     return {
         "USERNAME": profile["login"],
@@ -171,6 +231,7 @@ def build_stats(token: str, username: str) -> dict:
         "FOLLOWERS": str(profile["followers"]["totalCount"]),
         "COMMITS": str(total_commits),
         "LOC": estimate_loc(token, username),
+        "STREAK": str(streak),
     }
 
 
