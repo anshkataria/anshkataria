@@ -17,7 +17,7 @@ dedicated inference service with MLflow tracking. Internal-token trust boundarie
 between services.
 `Java 21` `Spring Boot` `FastAPI` `Angular` `Redis` `XGBoost` `Docker`
 
-**[Ticket Tailor]([https://github.com/anshkataria/veloce](https://github.com/CSSE6400/2026-Prac3-TicketTailor))** &mdash; Serverless event platform, 6-person Agile team. Seven Lambdas
+**[Ticket Tailor](https://github.com/anshkataria/veloce](https://github.com/CSSE6400/2026-Prac3-TicketTailor)** &mdash; Serverless event platform, 6-person Agile team. Seven Lambdas
 behind API Gateway, Cognito auth, RDS behind a PgBouncer pooler to survive Lambda
 connection storms. EventBridge + SQS notification engine.
 `AWS Lambda` `API Gateway` `DynamoDB` `SQS` `EventBridge` `React`
