@@ -45,16 +45,14 @@ TEMPLATE_TO_OUTPUT = {
 
 # Placeholders that will be substituted inside the SVG files.
 # Add or remove entries here to match what you display in your template.
-# (STARS/FOLLOWERS are still computed and available below even though the
-# default template no longer displays them - add {{STARS}} / {{FOLLOWERS}}
-# back into your template if you want them.)
+# (STARS/FOLLOWERS/REPOS are still computed and available below even though
+# the default template no longer displays them - add {{STARS}} / {{FOLLOWERS}}
+# / {{REPOS}} back into your template if you want them.)
 PLACEHOLDERS = [
     "USERNAME",
     "REPOS",
     "STARS",
     "FOLLOWERS",
-    "LOC",
-    "STREAK",
     "ACTIVITY_GRID",
 ]
 
@@ -132,33 +130,9 @@ def fetch_contribution_weeks(token: str, username: str) -> list:
     return data["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 
 
-def current_streak(weeks: list) -> int:
-    """
-    Counts consecutive days (ending today) with at least one contribution.
-    Today is allowed to have zero contributions without breaking the streak,
-    since the day isn't over yet.
-    """
-    days = sorted(
-        (d for week in weeks for d in week["contributionDays"]),
-        key=lambda d: d["date"],
-    )
-    today_str = datetime.now(timezone.utc).date().isoformat()
-
-    streak = 0
-    for day in reversed(days):
-        if day["date"] == today_str and day["contributionCount"] == 0:
-            continue
-        if day["contributionCount"] > 0:
-            streak += 1
-        else:
-            break
-
-    return streak
-
-
 # Fixed contribution-count -> color thresholds, in ascending order of upper
-# bound (inclusive). The heatmap sits directly under the STREAK row, so the
-# palette is a warm-to-flame gradient rather than GitHub's green.
+# bound (inclusive). The heatmap sits directly under the TYPES/STATS rows, so
+# the palette is a warm-to-flame gradient rather than GitHub's green.
 _HEATMAP_LEVELS = [
     (0, "#e2d9c3"),
     (2, "#FFC98B"),
@@ -175,7 +149,7 @@ def _heatmap_color(count: int) -> str:
     return _HEATMAP_MAX_COLOR
 
 
-def build_activity_heatmap(weeks: list, x: int = 436, y: int = 442, cell: int = 6, gap: int = 1) -> str:
+def build_activity_heatmap(weeks: list, x: int = 436, y: int = 464, cell: int = 6, gap: int = 1) -> str:
     """
     Renders the last 52 weeks of contributionDays as a grid of <rect> cells
     (columns = weeks, rows = day-of-week), positioned to match the fixed
@@ -195,28 +169,6 @@ def build_activity_heatmap(weeks: list, x: int = 436, y: int = 442, cell: int = 
     return "".join(rects)
 
 
-def estimate_loc(token: str, username: str) -> str:
-    """
-    GitHub's API doesn't expose a direct 'lines of code' metric.
-    This is a lightweight estimate based on total repo size via the REST
-    search API. For a more precise number, consider swapping in a
-    dedicated LOC-counting action (e.g. github-readme-stats' LOC add-on,
-    or a tool like `cloc` run against clones of your repos in the workflow).
-    """
-    headers = {"Authorization": f"token {token}"}
-    resp = requests.get(
-        f"https://api.github.com/search/repositories?q=user:{username}",
-        headers=headers,
-        timeout=30,
-    )
-    if resp.status_code != 200:
-        return "N/A"
-    total_size_kb = sum(repo.get("size", 0) for repo in resp.json().get("items", []))
-    # 'size' from the API is in KB of the repo (not exact LOC), used here as a rough proxy.
-    estimated_loc = total_size_kb * 20  # rough heuristic multiplier
-    return f"{estimated_loc:,}+"
-
-
 def build_stats(token: str, username: str) -> dict:
     profile = get_profile_summary(token, username)
     repos = profile["repositories"]
@@ -228,8 +180,6 @@ def build_stats(token: str, username: str) -> dict:
         "REPOS": str(repos["totalCount"]),
         "STARS": str(total_stars),
         "FOLLOWERS": str(profile["followers"]["totalCount"]),
-        "LOC": estimate_loc(token, username),
-        "STREAK": str(current_streak(weeks)),
         "ACTIVITY_GRID": build_activity_heatmap(weeks),
     }
 
